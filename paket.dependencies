@@ -4,6 +4,8 @@ framework: >= net45
 nuget Newtonsoft.Json >= 9.0.1
 nuget FSharp.Core ~> 4.0.0
 nuget YamlDotNet
+nuget Microsoft.OpenApi
+nuget Microsoft.OpenApi.Readers
 
 github fsharp/FSharp.Data src/Net/Http.fs
 github fsharp/FSharp.Data src/CommonRuntime/IO.fs

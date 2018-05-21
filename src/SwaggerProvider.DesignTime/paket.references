@@ -11,3 +11,5 @@ File: JsonConversions.fs
 File: JsonExtensions.fs
 FSharp.Core
 YamlDotNet
+Microsoft.OpenApi
+Microsoft.OpenApi.Readers
