@@ -6,20 +6,19 @@ NUGET
     YamlDotNet (4.2.2)
 GITHUB
   remote: fsharp/FSharp.Data
-    src/CommonRuntime/IO.fs (b5df1ca30f5bb7749c4fd340b61f1b7fc43fb547)
-    src/CommonRuntime/NameUtils.fs (b5df1ca30f5bb7749c4fd340b61f1b7fc43fb547)
-    src/CommonRuntime/Pluralizer.fs (b5df1ca30f5bb7749c4fd340b61f1b7fc43fb547)
-    src/CommonRuntime/StructuralTypes.fs (b5df1ca30f5bb7749c4fd340b61f1b7fc43fb547)
-    src/CommonRuntime/TextConversions.fs (b5df1ca30f5bb7749c4fd340b61f1b7fc43fb547)
-    src/Json/JsonConversions.fs (b5df1ca30f5bb7749c4fd340b61f1b7fc43fb547)
-    src/Json/JsonExtensions.fs (b5df1ca30f5bb7749c4fd340b61f1b7fc43fb547)
-    src/Json/JsonValue.fs (b5df1ca30f5bb7749c4fd340b61f1b7fc43fb547)
-    src/Net/Http.fs (b5df1ca30f5bb7749c4fd340b61f1b7fc43fb547)
-    src/Net/UriUtils.fs (b5df1ca30f5bb7749c4fd340b61f1b7fc43fb547)
+    src/CommonRuntime/IO.fs (9d8f3a0c2eb4b4842f74ca181eab8a2a3e57e18e)
+    src/CommonRuntime/NameUtils.fs (9d8f3a0c2eb4b4842f74ca181eab8a2a3e57e18e)
+    src/CommonRuntime/Pluralizer.fs (9d8f3a0c2eb4b4842f74ca181eab8a2a3e57e18e)
+    src/CommonRuntime/StructuralTypes.fs (9d8f3a0c2eb4b4842f74ca181eab8a2a3e57e18e)
+    src/CommonRuntime/TextConversions.fs (9d8f3a0c2eb4b4842f74ca181eab8a2a3e57e18e)
+    src/Json/JsonConversions.fs (9d8f3a0c2eb4b4842f74ca181eab8a2a3e57e18e)
+    src/Json/JsonExtensions.fs (9d8f3a0c2eb4b4842f74ca181eab8a2a3e57e18e)
+    src/Json/JsonValue.fs (9d8f3a0c2eb4b4842f74ca181eab8a2a3e57e18e)
+    src/Net/Http.fs (9d8f3a0c2eb4b4842f74ca181eab8a2a3e57e18e)
   remote: fsprojects/FSharp.TypeProviders.SDK
-    src/ProvidedTypes.fs (b03aeb9b87c24559b99da3b3afdfcfdae0cc3ce0)
-    src/ProvidedTypes.fsi (b03aeb9b87c24559b99da3b3afdfcfdae0cc3ce0)
-    src/ProvidedTypesTesting.fs (b03aeb9b87c24559b99da3b3afdfcfdae0cc3ce0)
+    src/ProvidedTypes.fs (f0c4a6300db313eb2616c4f792cd6ae68c255e56)
+    src/ProvidedTypes.fsi (f0c4a6300db313eb2616c4f792cd6ae68c255e56)
+    src/ProvidedTypesTesting.fs (f0c4a6300db313eb2616c4f792cd6ae68c255e56)
 GROUP Build
 RESTRICTION: == net461
 NUGET
