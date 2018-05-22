@@ -95,6 +95,7 @@
     <Compile Include="Schema.fs" />
     <Compile Include="SchemaParserExceptions.fs" />
     <Compile Include="SchemaNode.fs" />
+    <Compile Include="MicrosoftOpenApiAdapter.fs" />
     <Compile Include="SchemaParser.fs" />
     <Compile Include="DefinitionCompiler.fs" />
     <Compile Include="OperationCompiler.fs" />

@@ -58,9 +58,7 @@ module private SwaggerProviderConfig =
                         schemaPathRaw |> IO.File.ReadAllText
 
                 let schema =
-                    if schemaData.Trim().StartsWith("{")
-                    then JsonValue.Parse  schemaData |> JsonNodeAdapter |> Parser.parseSwaggerObject
-                    else YamlParser.Parse schemaData |> YamlNodeAdapter |> Parser.parseSwaggerObject
+                    MicrosoftOpenApiParser.Parse schemaData |> MicrosoftOpenApiAdapter.AdaptOpenApiDocument 
 
                 // Create Swagger provider type
                 let baseTy = Some typeof<SwaggerProvider.Internal.ProvidedSwaggerBaseType>
