@@ -173,9 +173,12 @@ module MicrosoftOpenApiAdapter =
 
             let consumes = 
                 pathItem.Value.Operations.Values
-                |> Seq.collect (fun o ->
-                    o.RequestBody.Content.Keys
+                |> Seq.choose (fun op ->
+                    op.RequestBody
+                    |> Option.ofObj
+                    |> Option.bind (fun body -> Some body.Content.Keys)
                 )
+                |> Seq.concat
                 |> Seq.toArray
 
             let produces = 
